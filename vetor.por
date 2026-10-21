@@ -12,5 +12,10 @@ programa {
     para( inteiro i = 0; i < 5; i++) {
       escreva ("Alunp : ")
       leia (nomes[i])
+
+      para (inteiro j = 0; i < 5; i++){
+        inteiro posicao = (i * 3) +j
+        escreva("Digite a nota: ")
+        leia (notas [posicao])
   }
 }
