@@ -13,8 +13,8 @@ programa {
       escreva ("Alunp : ")
       leia (nomes[i])
 
-      para (inteiro j = 0; i < 5; i++){
-        inteiro posicao = (i * 3) +j
+      para (inteiro i = 0; i < 5; i++){
+        inteiro posicao = (i * 3) +i
         escreva("Digite a nota: ")
         leia (notas [posicao])
 
@@ -23,9 +23,17 @@ programa {
        para( inteiro i = 0; i < 5; i++) {
         escreva("\nAluno: ", nomes[i])
 
-        para(inteiro j = 0; j < 3; j++){
-          inteiro posicao = (i * 3) +j
+        para(inteiro i = 0; i < 3; i++){
+          inteiro posicao = (i * 3) +i
           escreva("\n notas: ",notas [posicao])
-
+        }
+       
+      }
+    }
+    
   }
 }
+}
+
+        
+
