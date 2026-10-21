@@ -17,5 +17,11 @@ programa {
         inteiro posicao = (i * 3) +j
         escreva("Digite a nota: ")
         leia (notas [posicao])
+
+       escreva ("\n------Lista de Alunos------\n")
+
+       para( inteiro i = 0; i < 5; i++) {
+        escreva("\nAluno: ", nomes[i])
+
   }
 }
